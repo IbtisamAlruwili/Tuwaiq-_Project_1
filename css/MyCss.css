@@ -1,6 +1,6 @@
 body{
 
-    background-color : #f1620f;
+    background-color : #0b044d;
 }
 
 .color-basic,a.nav-link{
@@ -38,4 +38,11 @@ body{
 .mainmenu li:hover .submenu {
     display: block;
     max-height: 200px;
+}
+
+#ShowProducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+   
 }
